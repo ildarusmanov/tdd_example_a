@@ -11,5 +11,5 @@ func CreateNewCalculator() *Calculator {
 }
 
 func (c *Calculator) Sum(a, b int) int {
-	return 15
+	return a + b
 }
